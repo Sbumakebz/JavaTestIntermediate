@@ -5,7 +5,7 @@
 
 Please take a look at the car class.
 
-#### Please refactor the code to what you would consider acceptable production quality by your standards.
+#### Please refactor the code according to *SOLID* principles.
 
 #### There is no time limit.
 
