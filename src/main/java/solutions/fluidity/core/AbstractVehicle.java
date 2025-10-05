@@ -14,7 +14,7 @@ public abstract class AbstractVehicle implements Vehicle {
     protected abstract int getMaxCargoCapacity();
 
     @Override
-    public void printStats() {
-        System.out.println(getClass().getSimpleName() + " cargo: " + cargoSpace + "kg");
+    public String printStats() {
+        return (getClass().getSimpleName() + " cargo: " + cargoSpace + "kg");
     }
 }
