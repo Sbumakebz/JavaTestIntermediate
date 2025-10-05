@@ -1,15 +1,8 @@
 # Java Test - Fluidity Software Solutions
 
-
-## Getting Started
-
-Please take a look at the car class.
-
-#### Please refactor the code according to *SOLID* principles.
-
-#### There is no time limit.
-
-#### Please stick to normal coding standards.
-
-#### Please zip up your source code and submit it for review.
-
+##	How SOLID Principles have been satisfied
+#### Single Responsibility - Each class has one responsibility
+#### Open for extention but closed for modification - Adding new vehicle types doesn’t modify existing code
+#### Liskovs Principle - All subclasses can replace the Vehicle abstraction
+#### Interface Segregation - Electric cars is not forced to implement fuel methods
+#### Dependencies inversion - Code depends on abstractions (Vehicle, FuelPowered), not concrete types
